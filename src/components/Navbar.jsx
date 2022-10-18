@@ -11,7 +11,7 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-poppins font-normal 
-            text-white cursor-pointer text-[16px] ${
+            text-red-900 cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
